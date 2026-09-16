@@ -1,4 +1,6 @@
-# DS Toolkit
+## DS Toolkit
+
+**[Try the live app →](https://ds-toolkit-5nwafpfkq9zsmcz2ryphzh.streamlit.app/)**
 
 A small end-to-end data science toolkit built around the Kaggle API. Search for a dataset, download it, explore it, clean it, and train a baseline model, all from one interface.
 
