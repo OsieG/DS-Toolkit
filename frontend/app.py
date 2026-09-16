@@ -20,6 +20,9 @@ def format_size(bytes_str):
 st.title("DS Toolkit")
 BACKEND_URL = "https://ds-toolkit.onrender.com"
 
+st.write("This was made and tested using small datasets")
+st.info("Tip: use small datasets for the best experience.")
+
 tab1, tab2, tab3, tab4, tab5, tab6  = st.tabs(["Dataset", "Stats", "Preprocess", "Correlation", "Data Quality", "Split & Train"])
 
 with tab1:
