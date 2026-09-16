@@ -18,7 +18,7 @@ def format_size(bytes_str):
 
 
 st.title("DS Toolkit")
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "https://ds-toolkit.onrender.com"
 
 tab1, tab2, tab3, tab4, tab5, tab6  = st.tabs(["Dataset", "Stats", "Preprocess", "Correlation", "Data Quality", "Split & Train"])
 
