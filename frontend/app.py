@@ -22,6 +22,7 @@ BACKEND_URL = "https://ds-toolkit.onrender.com"
 
 st.write("This was made and tested using small datasets")
 st.info("Tip: use small datasets for the best experience.")
+st.info("Streamlit and Render both have cold starts, please be patient")
 
 tab1, tab2, tab3, tab4, tab5, tab6  = st.tabs(["Dataset", "Stats", "Preprocess", "Correlation", "Data Quality", "Split & Train"])
 
@@ -29,7 +30,7 @@ with tab1:
     st.subheader("Search Kaggle Datasets")
 
     with st.form(key="search_form"):
-        query = st.text_input("Search term", placeholder="e.g. titanic")
+        query = st.text_input("Search term", placeholder="e.g. Iris")
         search_clicked = st.form_submit_button("Search")
 
     if search_clicked:
