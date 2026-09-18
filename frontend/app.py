@@ -325,7 +325,7 @@ with tab6:
             train_size = st.slider("Train size", min_value=0.1, max_value=0.9, value=0.7, step=0.05)
             test_size = st.slider("Test size", min_value=0.1, max_value=0.3, value=0.15, step=0.05)
             val_size = st.slider("Validation size", min_value=0.1, max_value=0.3, value=0.15, step=0.05)
-            random_state = st.number_input("Random seed", value=69, step=1)
+            random_state = st.number_input("Random seed", value=68, step=1)
 
             if st.button("Split Dataset"):              
                 split_params = [
